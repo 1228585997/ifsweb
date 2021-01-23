@@ -11,7 +11,7 @@ Page({
   /**
    * 生命周期函数--监听页面加载
    */
-  onLoad: function (options) {
+  onLoad(options) {
     wx.showToast({
       title: '加载中',
       icon: 'loading',
@@ -21,7 +21,7 @@ Page({
       wx.switchTab({
         url: '/pages/index/index',
       })
-    }, 10000)
+    }, 8000)
   },
 
   /**

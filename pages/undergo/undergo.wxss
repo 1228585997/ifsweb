@@ -1,1 +1,41 @@
 /* pages/undergo/undergo.wxss */
+.main_header{
+	padding:30rpx;
+	background-color: rgb(64, 158, 255);
+}
+.linebox{
+	position:relative;
+	text-align:center;
+}
+.linebox::after{
+	content:'';
+	position:absolute;
+	width:25%;
+	left: 12%;
+	top: 55%;
+	height: 1px;
+	background-color:#ccc;
+}
+.linebox::before{
+	content:'';
+	position:absolute;
+	width:25%;
+	right: 12%;
+	top: 55%;
+
+
+	height: 1px;
+	background-color:#ccc;
+}
+.box_text{
+	padding:20rpx;
+	margin:20rpx;
+	box-shadow: 0 0 10rpx rgba(0, 0, 0, 0.1);
+}
+.text{
+	margin-top:10rpx;
+}
+
+.text_box{
+	margin-bottom:10rpx;
+}

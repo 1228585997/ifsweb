@@ -5,7 +5,17 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+		autoplay: false, //是否自动播放
+		duration: 500 ,//延迟
+		indicatorDots: true,  //小点
+		 interval: 3000,  //间隔时间
+		 duration: 3000,  //滑动时间
+		 color:'red',
+		arr:[
+			'/images/1.png',
+			'/images/2.png',
+			'/images/3.png'
+		]
   },
 
   /**

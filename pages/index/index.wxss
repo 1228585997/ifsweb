@@ -10,8 +10,8 @@
 }
 
 .img {
-	width: 100rpx;
-	height: 100rpx;
+	width: 200rpx;
+	height: 200rpx;
 	border-radius: 50%;
 }
 
@@ -66,4 +66,9 @@
 }
 .text{
 	margin-bottom:15rpx;
+}
+.time{
+	display:flex;
+	margin-top:10rpx;
+	justify-content:center;
 }

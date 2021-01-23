@@ -13,6 +13,14 @@
 			<text class="joib">工作经验: 3年</text>
 			<view>联系电话: 13707602431</view>
 		</view>
+		<view class="phone">
+			<text class="joib">郑州工程学院</text>
+			<view class="joib">计算机科学与技术</view>本科
+			
+		</view>
+		<view class="time">
+				(2013.9-2017.7)
+			</view>
 	</view>
 	<!-- 自我评价 -->
 	<view class="content">

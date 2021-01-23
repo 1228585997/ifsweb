@@ -1,2 +1,84 @@
 <!--pages/undergo/undergo.wxml-->
-<text>pages/undergo/undergo.wxml6666655666</text>
+<view class="container">
+	<!-- 轮播图 -->
+	<view class="main_header">
+		<swiper indicator-active-color="{{color}}" indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+			<block wx:for="{{arr}}" wx:key="*this">
+			          <swiper-item>
+			            <view class="swiper-item">
+							<image src="{{item}}"></image>
+						</view>
+			          </swiper-item>
+			       </block>
+		</swiper>
+	</view>
+	<view class="content">
+		<view class="linebox">
+			项目一
+		</view>
+		<view class="box_text">
+			项目名称:依谷网 (PC)
+			<view class="text">
+				项目描述: 这是一个食品线上购物的网页， 主要给用户提供各种类型的农副产品和生鲜，我们对商品进行了分类展示，用户可根据自己的需要到相应的位置挑选商品，提   高用户的体验效果，用户也可以搜索自己想要的商品来挑选，我们还在网页中设置了  选项卡， 是商品分类更加详细，更利于用户挑选商品。
+			</view>
+			<view class="text">
+				责任描述：
+				<view>1.负责页面的布局，以及首页、详情页面等和商品相关页面的开发。</view>
+				<view>2.负责选项卡的编写，以及其他动态效果的实现，商品放大镜等功能。
+				负责数据交互，运用 Ajax 向后台请求数据，运用 JQ 操作 DOM。</view>
+			</view>
+		</view>
+		<view class="linebox">
+			项目二
+		</view>
+		<view class="text box_text">
+			项目名称:必然商城
+			<view class="text">
+				项目描述:必然商城是全品类精品内容电商 APP，通过有趣的内容社交化，满足人们的购物习惯爱好。
+			</view>
+			<view class="text">
+				<view class="text_box">
+					1.资源搜索时使用搜索资源，可查找到大部分资源，点击下载时下载到本地。
+				</view>
+				<view class="text_box">
+						2.HTML + CSS 进行布局并结合使用 H5+CSS3 一些新特性，便于 SEO,能兼容不同屏幕尺寸大小不一样的设备，使用 JavaScript 以实现动态效果的设计 。
+				</view>
+				<view class="text_box">
+					3.采用单页面技术，使用大量的矢量图标，调试浏览器的兼容性问题，模块化开发，  确保用户有良好的产品体验。
+				</view>
+				<view class="text_box">
+					4.首屏有一个懒加载的过程，提高网页加载技术，但在网络情况差或没网的情况下会提醒用户进行网络连接等。
+				</view>
+				<view class="text_box">
+					5.路由懒加载，以及分页技术方便客户浏览， 提升产品 UI 效果、提高用户体验。
+				</view>
+				<view class="text_box">
+					6.参与UI 设计师实现页面的美观效果，让页面简洁、美观，改进网页的性能、安全性、稳定性和可扩展性。
+				</view>
+				
+			</view>
+			
+	</view>
+	<view class="linebox">
+			项目三
+		</view>
+		<view class="text box_text">
+			项目名称:小蚁云开放平台 6周年活动页 小蚁微商城
+			<view class="text">
+				<view class="text">小蚁云开放平台:这是一款公司内部使用的一套后台管理系统,及大屏可视化的展示项目。</view>
+				<view class="text">6周年活动页: 6周年活动页，项目描述：小蚁云开放平台是一款后台管理系统,主要业务包含权限管理，用户管理，及分润系统等模块。6周年活动页是为了给用户查看近几年，
+				小蚁的成长，小蚁摄像机给用户带来的更好体验。</view>
+				<view class="text">
+					小蚁微商城:这个是一款公司对外开发的自家产品购物小程序，主营业务云服务，小蚁摄像机。
+				</view>
+			</view>
+			<view class="box">
+				<view>1.利用 Element-UI布局，模块化开发便于维护及增加需求使用，表格栅格系统的应用。</view>
+				<view>2.组件化开发，项目整体布局及界面维护，vuex状态管理的使用，Echarts数据可视化的大量使用。</view>
+				<view>3.活动页中利用Vant进行的上滑操作，动画的使用，及移动端适配，音频播放等。</view>
+				<view>4.使用第三方组件库Vant-weapp优化页面布局及组件的使用，提高用户体验。</view>
+				<view>5.使用GitLab进行代码的维护，Git可视化工具Sourcetree的使用，便于项目的更新与迭代。</view>
+			</view>
+		</view>
+	</view>
+</view>
