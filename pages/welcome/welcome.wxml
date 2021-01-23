@@ -1,6 +1,6 @@
 <view class="container">
   <view class="bg">
-    <text class="common title">坚持梦想</text>
+    <text class="common title">坚持梦想sss</text>
     <text class="common subtitle" id="fadeIn">个人简历</text>
     <view class="common desc animate">
       <text>钻</text>
