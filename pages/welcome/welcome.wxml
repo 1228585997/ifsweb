@@ -1,0 +1,30 @@
+<view class="container">
+  <view class="bg">
+    <text class="common title">坚持梦想</text>
+    <text class="common subtitle" id="fadeIn">个人简历</text>
+    <view class="common desc animate">
+      <text>钻</text>
+      <text>研</text>
+      <text>自</text>
+      <text>己</text>
+      <text>喜</text>
+      <text>欢</text>
+      <text>的</text>
+	  <text>事</text>
+	  <text>,</text>
+	  <text>是</text>
+	  <text>收</text>
+	  <text>益</text>
+	  <text>最</text>
+	  <text>高</text>
+	  <text>的</text>
+	  <text>投</text>
+	  <text>资</text>
+    </view>
+    <text class="common subdesc" id="fadeIn2">未 知 的 可 能 性 , 追 随 我 心</text>
+    <view class="common animate2">
+      <text>坚</text><text>持</text><text>梦</text><text>想</text>
+    </view>
+  </view>
+
+</view>

@@ -1,0 +1,31 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/undergo/undergo"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#0081ff",
+    "navigationBarTitleText": "个人简历",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "selectedColor": "#0081ff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "selectedIconPath": "images/nav_4_active.png",
+        "iconPath": "images/nav_4.png",
+        "text": "基本信息"
+      },
+      {
+        "pagePath": "pages/undergo/undergo",
+        "selectedIconPath": "images/nav_1_active.png",
+        "iconPath": "images/nav_1.png",
+        "text": "工作经验"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

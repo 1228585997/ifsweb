@@ -1,0 +1,40 @@
+<view class="container">
+	<!-- 头部 -->
+	<view class="headerbox">
+		<view class="imgsbox flex">
+			<image src="../../images/avator.jpg" class="img"></image>
+		</view>
+		<view class="title">姓名: 李飞钒</view>
+		<view class="margin-top-sm">
+			<text>期望职位：</text>
+			<text class="text-orange">前端开发工程师</text>
+		</view>
+		<view class="phone">
+			<text class="joib">工作经验: 3年</text>
+			<view>联系电话: 13707602431</view>
+		</view>
+	</view>
+	<!-- 自我评价 -->
+	<view class="content">
+		<view class="linebox">自我评价</view>
+		<view class="c_text">
+			<view class="text">1.善于与人沟通,有很强的团队合作意识,能够很快的适应到新的团队合作组中。</view>
+			<view class="text">2.对前端有很大的兴趣并有独立自主学习的能力，具备独立分析并解决问题的能力。</view>
+			<view class="text">3.关注前端技术领域发展, 积极向上，适应力强，有良好的前端编码能力，责任心强。</view>
+		</view>
+	</view>
+	<!-- 专业技能 -->
+	<view class="content">
+		<view class="linebox">专业技能</view>
+		<view  class="c_text">
+			<view class="text">1.熟悉 W3C 标准,熟练掌握 HTML+CSS 及原生JS,可以根据设计图快速的进行布局，对前端性能优化有着一定的了解。</view>
+			<view class="text">2.熟练 HTML5、JavaScript、CSS3、并可快速使用 REM、VW、VH、百分比、等移动端的布局方式。</view>
+			<view class="text">3.熟练使用 Vue 全家桶,有着一定的项目经验，并可以熟练的使用其 SPA、组件化和脚手架开发，有良好的编码、沟通协作能力和学习能力。</view>
+			<view class="text">4.熟练掌握Jquery及Jquery插件，有良好的命名规范，编码能力。</view>
+			<view class="text">5.熟练使用 BootStrap、Element-UI、Vant、Mint-UI、等框架进行快速布局,熟悉 ES6 的语法。</view>
+			<view class="text">6.熟练使用Git 进行版本管理，有着一定的协同多人项目开发经验，并可以熟练使用 WebPack 自动化打包工具。</view>
+			<view class="text">7.对于前后台交互有着项目经验，熟练使用 AJAX、Axios、等前后台交互技术熟练使用Echarts实现数据可视化。</view>
+			<view class="text">8.熟练使运 HBuilderX、VScode、Subime、 Photoshop、等常用前端编程软件。</view>
+		</view>
+	</view>
+</view>
