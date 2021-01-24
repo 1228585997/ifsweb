@@ -6,7 +6,7 @@
 		</view>
 		<view class="title">姓名: 李飞钒</view>
 		<view class="margin-top-sm">
-			<text>期望职位：</text>
+			<text>求职意向：</text>
 			<text class="text-orange">前端开发工程师</text>
 		</view>
 		<view class="phone">
