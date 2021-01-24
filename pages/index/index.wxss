@@ -72,3 +72,7 @@
 	margin-top:10rpx;
 	justify-content:center;
 }
+.just_flex{
+	display:flex;
+	justify-content:space-between;
+}

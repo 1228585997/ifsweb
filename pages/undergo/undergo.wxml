@@ -2,10 +2,10 @@
 <view class="container">
 	<!-- 轮播图 -->
 	<view class="main_header">
-		<swiper indicator-active-color="{{color}}" indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}"
+		<swiper  indicator-active-color="{{color}}" indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}"
 		 duration="{{duration}}">
-			<block wx:for="{{arr}}" wx:key="*this">
-				<swiper-item>
+			<block wx:for="{{arr}}" wx:key="*this" wx:for-index="i">
+				<swiper-item bindtap="tabGo" data-index="{{i}}">
 					<view class="swiper-item">
 						<image src="{{item}}"></image>
 					</view>
@@ -15,7 +15,7 @@
 	</view>
 	<view class="content">
 		<view class="linebox">
-			项目一
+			项目一 (2017/11-2018/3)
 		</view>
 		<view class="box_text">
 			项目名称:依谷网 (PC)
@@ -31,7 +31,34 @@
 			</view>
 		</view>
 		<view class="linebox">
-			项目二
+			项目二 (2018/5-2018/9)
+		</view>
+		<view class="box_text">
+			项目名称:金骊二次库融资方管理后台
+			<view class="text">
+				项目描述:这是一款汽车融资的信贷抵押的后台管理系统基于Vue_element_admin模板开发的后台管理系统。
+			</view>
+			<view class="text">
+				<view class="text">1.使用ElementUI的表格组件及栅格系统快速实现页面整体布局,组件的封装及Axios的封装。</view>
+				<view class="text">2.负责产品的功能模块设计、内容开发、产品的详情页及互动展示，使用路由懒加载,提高用户体验。</view>
+				<view class="text">3.负责页面跳转,组件传值，权限管理分配权限功能的实现，对项目进度负责，使用 Iconfont 矢量图标便于修改和维护。</view>
+			</view>
+		</view>
+		<view class="linebox">
+			项目三 (2018/10-2019/3)
+			<view class="box_text">
+				<view class="text">
+					项目描述:这是一个查询天气的小程序。根据地区不同查询当地天气。主要包括数据的请求,页面的搭建效果的实现。
+				</view>
+				<view class="text">
+					<view class="text">1.实现页面美观，布局优化，列表数据的查询以及用户数据的搜索后端数据的交互。</view>
+					<view class="text">2.按照效果图实现以上的各组件 UI 界面，将数据进行请求渲染到各组件的界面上,项目性能优化,以及各个版本之间的浏览器兼容。</view>
+					<view class="text">3.天气的搜索功能，地址定位实现产品经理、设计师的网站或平台的业务需求，还原产品所 需设计。</view>
+				</view>
+			</view>
+		</view>
+		<view class="linebox">
+			项目四 (2019/4-2019-12)
 		</view>
 		<view class="text box_text">
 			项目名称:必然商城
@@ -60,8 +87,9 @@
 			</view>
 		</view>
 		<view class="linebox">
-			项目三
+			项目五 (2020.3-2021.1)
 		</view>
+		
 		<view class="text box_text">
 			项目名称:小蚁云开放平台 6周年活动页 小蚁微商城
 			<view class="text">

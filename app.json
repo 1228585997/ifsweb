@@ -1,8 +1,9 @@
 {
   "pages": [
-	"pages/welcome/welcome",
+    "pages/welcome/welcome",
     "pages/index/index",
-    "pages/undergo/undergo"
+    "pages/undergo/undergo",
+    "pages/first/first"
   ],
   "window": {
     "backgroundTextStyle": "light",

@@ -1,0 +1,34 @@
+<!--pages/first/first.wxml-->
+<view class="container_box">
+	<view class="header">
+		<!-- 动画图片 -->
+		<view class="header_img">
+			<image   mode="widthFix" src="http://xiaoyi-bbs.oss-cn-qingdao.aliyuncs.com/h5/imgVideo/activity6year/11.gif?time=1611494954290"></image>
+		</view>
+		<!-- 返回按钮 -->
+		<view class="goback" bindtap="goback">
+			<image src="{{go}}" class="go_img" mode="widthFix" ></image>
+		</view>
+		<!-- 音频 -->
+		<view class="audio">
+			 <audio   
+				id="myAudio" controls loop  
+				src="{{playsrc}}"
+				autoplay="true"
+			 ></audio>
+		</view>
+		<!-- 播放按钮 -->
+		<view class="imgbox">
+			<image class="{{type?'rotation img':'img'}}" mode="widthFix"  bindtap="cg" src="{{type?play1:play2}}"></image>
+		</view>
+	</view>
+	<view class="content">
+			<view class="text animate" >
+			   梦想也许今天无法实现，明天也不能。重要的是，
+			   它在你心里。重要的是，你一直在努力。只要你还有追求，
+			   你就不会老去。直到后悔取代了梦想，一个人才算老。
+			   不是每一个梦想都能实现，但每一个梦想都值得被尊重和敬仰。
+			   不是每一个梦想都能坚持，但每一个能坚持下来的人都是自己的人生赢家。
+			</view>
+	</view>
+</view>

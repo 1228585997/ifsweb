@@ -31,6 +31,23 @@
 			<view class="text">3.关注前端技术领域发展, 积极向上，适应力强，有良好的前端编码能力，责任心强。</view>
 		</view>
 	</view>
+	<!-- 工作经验-->
+	<view class="content">
+		<view class="linebox">工作经验</view>
+		<view class="c_text">
+			<view class="text just_flex">2017.11-2020.2	<text class="text-orange">北京佳金数据科技有限公司</text></view>
+			<view  class="text">Web 前端开发工程师</view>
+			<view class="text">1.负责 WEB 端及移动端的前端开发工作，完负责与后台合作共同完成项目对接，参与公司外包项目。</view>
+			<view class="text">2.利用插件快速布局，提高前端开发效率和性能的提升，使用 Swiper 实现首页的轮播切换， Mint-UI 结合 Ajax 实现数据交互。利用 JS、HTML5+CSS、ES6、Vue 等进行页面的开发工作，相关项目的文档编写。</view>
+			<view class="text">3.项目通过 Vue 脚手架 快速搭建开发环境，及VueX 处理各组件间的通讯，Axios 处理请求。</view>
+			<view class="text just_flex">2020.3-2021.1	<text class="text-orange">上海小蚁科技有限公司</text></view>
+			<view  class="text">Web 前端开发工程师</view>
+			<view class="text">1.负责大屏可视化开发，WEB项目的前端工作，解决bug。</view>
+			<view class="text">2. 负责公司内部的小蚁云开放平台,6周年活动页H5页面嵌套APP小程序等项目的开发工作。</view>
+			<view class="text">3.与设计师、产品优化师密切合作，参与并实现产品 UI 与交互方面的设计，确保产品具有良好的用户体验。与架构师、产品经理密切合作，参与并完成rdc项目需求。</view>
+			<view class="text">4.使用 WebPack 将代码打包，合理使用钩子函数，实现数据的监听、渲染页面、页面节点的实例化功能，配合后端开发人员与 UI 设计师，对功能型页面程序提供与整合。</view>
+		</view>
+	</view>
 	<!-- 专业技能 -->
 	<view class="content">
 		<view class="linebox">专业技能</view>
@@ -41,8 +58,9 @@
 			<view class="text">4.熟练掌握Jquery及Jquery插件，有良好的命名规范，编码能力。</view>
 			<view class="text">5.熟练使用 BootStrap、Element-UI、Vant、Mint-UI、等框架进行快速布局,熟悉 ES6 的语法。</view>
 			<view class="text">6.熟练使用Git 进行版本管理，有着一定的协同多人项目开发经验，并可以熟练使用 WebPack 自动化打包工具。</view>
-			<view class="text">7.对于前后台交互有着项目经验，熟练使用 AJAX、Axios、等前后台交互技术熟练使用Echarts实现数据可视化。</view>
-			<view class="text">8.熟练使运 HBuilderX、VScode、Subime、 Photoshop、等常用前端编程软件。</view>
+			<view class="text">7.了解 Node.JS,React 熟练使用 NPM、CNPM 等包管理器及微信小程序的开发。</view>
+			<view class="text">8.对于前后台交互有着项目经验，熟练使用 AJAX、Axios、等前后台交互技术熟练使用Echarts实现数据可视化。</view>
+			<view class="text">9.熟练使运 HBuilderX、VScode、Subime、 Photoshop、等常用前端编程软件。</view>
 		</view>
 	</view>
 </view>
