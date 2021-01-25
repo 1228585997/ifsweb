@@ -4,8 +4,11 @@ const app = getApp()
 
 Page({
   data: {
-   arr:[
-	   
+	  play1:'../../images/play1.png',
+	  play2:'../../images/play2.png',
+	  type:true, //类型图片展示
+	  playsrc:'http://xiaoyi-bbs.oss-cn-qingdao.aliyuncs.com/h5/audio/activity6year.mp3',
+   arr:[ 
 	  {
 		  name:'自我评价',
 		  text1:'1.善于与人沟通,有很强的团队合作意识,注重团队合作，具有良好的沟通能力。',
@@ -74,8 +77,25 @@ Page({
   },
   //请求接口
 onLoad(){
-	
+	this.audioCtx = wx.createAudioContext('myAudio')
+	this.audioCtx.play()
  },
+ //音频播放
+ 	cg(){ 
+ 		let audioCtx = wx.createAudioContext('myAudio')
+ 		const {type}=this.data
+ 		 if(type){
+ 			  this.setData({
+ 			  	type:false
+ 			  })
+ 			  audioCtx.pause()
+ 		 }else{
+ 			this.setData({
+ 				type:true
+ 			})
+ 			 audioCtx.play()
+ 		 }
+ 	},
  //拨打电话 
  tel(){
 	 const phoneNumber=app.globalData.phoneNumber

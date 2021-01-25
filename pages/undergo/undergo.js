@@ -27,14 +27,13 @@ Page({
 		let index = ev.currentTarget.dataset.index
 		switch (index) {
 			case 0:
+			console.log('第一');
 				wx.navigateTo({
 					url: `/pages/first/first`
 				})
 				break;
 			case 1:
-				wx.navigateTo({
-					url: `/pages/second/second`
-				})
+				console.log('第二');
 				break;
 			case 2:
 				console.log('第三')

@@ -1,6 +1,18 @@
 <view class="container">
 	<!-- 头部 -->
 	<view class="headerbox">
+		<!-- 音频 -->
+		<view class="audio">
+			 <audio   
+				id="myAudio" controls loop  
+				src="{{playsrc}}"
+				autoplay="true"
+			 ></audio>
+		</view>
+		<!-- 播放按钮 -->
+		<view class="imgbox">
+			<image class="{{type?'rotation imgbox_img':'imgbox_img'}}" mode="widthFix"  bindtap="cg" src="{{type?play1:play2}}"></image>
+		</view>
 		<view class="imgsbox flex">
 			<image src="../../images/avator.jpg" class="img"  mode="aspectFill"></image>
 		</view>

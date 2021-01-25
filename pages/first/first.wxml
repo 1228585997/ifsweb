@@ -1,13 +1,12 @@
 <!--pages/first/first.wxml-->
 <view class="container_box">
 	<view class="header">
-		<!-- 动画图片 -->
-		<view class="header_img">
-			<image   mode="widthFix" src="http://xiaoyi-bbs.oss-cn-qingdao.aliyuncs.com/h5/imgVideo/activity6year/11.gif?time=1611494954290"></image>
-		</view>
 		<!-- 返回按钮 -->
 		<view class="goback" bindtap="goback">
 			<image src="{{go}}" class="go_img" mode="widthFix" ></image>
+		</view>
+		<view class="headerbox">
+			<image class="header_img" mode="widthFix" src="http://xiaoyi-bbs.oss-cn-qingdao.aliyuncs.com/h5/imgVideo/activity6year/11.gif?time=1611572252189"></image>
 		</view>
 		<!-- 音频 -->
 		<view class="audio">

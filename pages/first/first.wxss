@@ -1,6 +1,6 @@
 /* pages/first/first.wxss */
 .img,.go_img{
-	width: 80rpx;
+	width: 80rpx ;
 }
 
 .imgbox {
