@@ -2,7 +2,7 @@
 	<!-- 头部 -->
 	<view class="headerbox">
 		<view class="imgsbox flex">
-			<image src="../../images/avator.jpg" class="img"></image>
+			<image src="../../images/avator.jpg" class="img"  mode="aspectFill"></image>
 		</view>
 		<view class="title">姓名: 李飞钒</view>
 		<view class="margin-top-sm">
@@ -11,7 +11,7 @@
 		</view>
 		<view class="phone">
 			<text class="joib">工作经验: 3年</text>
-			<view>联系电话: 13707602431</view>
+			<view>QQ: 1228585997</view>
 		</view>
 		<view class="phone">
 			<text class="joib">郑州工程学院</text>
@@ -22,45 +22,71 @@
 				(2013.9-2017.7)
 			</view>
 	</view>
-	<!-- 自我评价 -->
-	<view class="content">
-		<view class="linebox">自我评价</view>
-		<view class="c_text">
-			<view class="text">1.善于与人沟通,有很强的团队合作意识,能够很快的适应到新的团队合作组中。</view>
-			<view class="text">2.对前端有很大的兴趣并有独立自主学习的能力，具备独立分析并解决问题的能力。</view>
-			<view class="text">3.关注前端技术领域发展, 积极向上，适应力强，有良好的前端编码能力，责任心强。</view>
+	
+	<view class="context">
+		<view class="left">
+			<block wx:for="{{listarr}}" wx:key="index">
+				<view class="item " data-index="{{index}}" bindtap="swichNav">
+							{{item}}
+						<view class="item1 boxty{{index}} {{z_index==index?'active':''}}">
+							{{item}}
+						</view>
+				</view>
+			</block>
 		</view>
-	</view>
-	<!-- 工作经验-->
-	<view class="content">
-		<view class="linebox">工作经验</view>
-		<view class="c_text">
-			<view class="text just_flex">2017.11-2020.2	<text class="text-orange">北京佳金数据科技有限公司</text></view>
-			<view  class="text">Web 前端开发工程师</view>
-			<view class="text">1.负责 WEB 端及移动端的前端开发工作，完负责与后台合作共同完成项目对接，参与公司外包项目。</view>
-			<view class="text">2.利用插件快速布局，提高前端开发效率和性能的提升，使用 Swiper 实现首页的轮播切换， Mint-UI 结合 Ajax 实现数据交互。利用 JS、HTML5+CSS、ES6、Vue 等进行页面的开发工作，相关项目的文档编写。</view>
-			<view class="text">3.项目通过 Vue 脚手架 快速搭建开发环境，及VueX 处理各组件间的通讯，Axios 处理请求。</view>
-			<view class="text just_flex">2020.3-2021.1	<text class="text-orange">上海小蚁科技有限公司</text></view>
-			<view  class="text">Web 前端开发工程师</view>
-			<view class="text">1.负责大屏可视化开发，WEB项目的前端工作，解决bug。</view>
-			<view class="text">2. 负责公司内部的小蚁云开放平台,6周年活动页H5页面嵌套APP小程序等项目的开发工作。</view>
-			<view class="text">3.与设计师、产品优化师密切合作，参与并实现产品 UI 与交互方面的设计，确保产品具有良好的用户体验。与架构师、产品经理密切合作，参与并完成rdc项目需求。</view>
-			<view class="text">4.使用 WebPack 将代码打包，合理使用钩子函数，实现数据的监听、渲染页面、页面节点的实例化功能，配合后端开发人员与 UI 设计师，对功能型页面程序提供与整合。</view>
+		<scroll-view scroll-y="true" style="height:100%;">
+			<view class="right">
+					<view wx:for="{{arr}}" wx:key="*this" class="rightitem" wx:if="{{z_index==index}}" class="boxty{{index}} right_box">
+						<view class="img_box">
+							<image src="{{item.itemimg}}" style="width:100%;" class="item_img" mode="aspectFill"></image>
+						</view>
+						<view class="linebox">
+							{{item.name}}
+						</view>
+						<view class="textr">
+							<view class="texttitle">
+								<view class="titlebox">
+									{{item.title}}
+								</view>
+								<view class="titleweb">{{item.titleweb}}</view>
+								<view class="text2">{{item.text1}}</view>
+								<view class="text2">{{item.text2}}</view>
+								<view class="text2">{{item.text3}}</view>
+								<view class="text2">{{item.text4}}</view>
+								<view class="text2">{{item.text5}}</view>
+								<view class="text2">{{item.text6}}</view>
+								<view class="text2">{{item.text7}}</view>
+								<view class="text2">{{item.text8}}</view>
+								<view class="titlebox">{{item.title2}}</view>
+								<view class="titleweb">{{item.titleweb2}}</view>
+								<view class="text2">{{item.text1_1}}</view>
+								<view class="text2">{{item.text2_2}}</view>
+								<view class="text2">{{item.text3_3}}</view>
+								<view class="text2">{{item.text4_4}}</view>
+							</view>
+						</view>
+							
+					</view>
+					<view class="boxitem animate" wx:if="{{z_index==0}}">
+						<view class="box_text">
+							人生<text class="text-orange">不生博弈</text>,而是充满智慧的自我复盘。
+						</view>
+						<view class="box_text">
+							<text class="text-orange">常思已过</text>
+							 莫论人非,
+							因为平凡而<text class="text-orange">奋斗</text>, 因为奋斗而<text class="text-orange">不平凡</text>
+						</view>
+					</view>
 		</view>
-	</view>
-	<!-- 专业技能 -->
-	<view class="content">
-		<view class="linebox">专业技能</view>
-		<view  class="c_text">
-			<view class="text">1.熟悉 W3C 标准,熟练掌握 HTML+CSS 及原生JS,可以根据设计图快速的进行布局，对前端性能优化有着一定的了解。</view>
-			<view class="text">2.熟练 HTML5、JavaScript、CSS3、并可快速使用 REM、VW、VH、百分比、等移动端的布局方式。</view>
-			<view class="text">3.熟练使用 Vue 全家桶,有着一定的项目经验，并可以熟练的使用其 SPA、组件化和脚手架开发，有良好的编码、沟通协作能力和学习能力。</view>
-			<view class="text">4.熟练掌握Jquery及Jquery插件，有良好的命名规范，编码能力。</view>
-			<view class="text">5.熟练使用 BootStrap、Element-UI、Vant、Mint-UI、等框架进行快速布局,熟悉 ES6 的语法。</view>
-			<view class="text">6.熟练使用Git 进行版本管理，有着一定的协同多人项目开发经验，并可以熟练使用 WebPack 自动化打包工具。</view>
-			<view class="text">7.了解 Node.JS,React 熟练使用 NPM、CNPM 等包管理器及微信小程序的开发。</view>
-			<view class="text">8.对于前后台交互有着项目经验，熟练使用 AJAX、Axios、等前后台交互技术熟练使用Echarts实现数据可视化。</view>
-			<view class="text">9.熟练使运 HBuilderX、VScode、Subime、 Photoshop、等常用前端编程软件。</view>
+		
+		</scroll-view>
+		
+		<!-- 拨打电话 -->
+		<view class="fenxiang" bindtap="tel">
+			<view class="fenimg fl">
+				<image  class="tyimg" src="../../images/phone.png" mode="widthFix"></image>
+			</view>
+			<view class="fl telcolor">电话</view>
 		</view>
 	</view>
 </view>

@@ -31,12 +31,7 @@ page {
 .audio {
 	display: none;
 } 
-.box{
-width: 200rpx;
-height: 200rpx;
-background-color: red;
 
-}
 .rotation {
 	animation: rotation 2s linear infinite;
 }
@@ -59,10 +54,7 @@ background-color: red;
 .box_text{
 	padding:20rpx 30rpx;
 }
-.text{
-	
-	
-}
+
 .goback{
 	position: fixed;
 	left: 5%;

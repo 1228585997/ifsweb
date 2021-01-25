@@ -1,15 +1,21 @@
 // pages/first/first.js
+
+
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
+	  
+	 
+	  
 	go:'../../images/go.png',
 	play1:'../../images/play1.png',
 	play2:'../../images/play2.png',
-	type:true,
-	playsrc:'https://isure.stream.qqmusic.qq.com/C400000Uu4J92SUUaN.m4a?guid=1688505292&vkey=9569AB63C5D603D37F2057F0E0999DB13C57E55DD02AF8D7133F8A89C94A5504855D609FCE4E3183A99E222D39EDF15F3BC8DF07EB97F5D6&uin=7181&fromtag=66'
+	type:true, //类型图片展示
+	//音频路径
+	playsrc:'https://isure.stream.qqmusic.qq.com/C400001xLIXo2w9V7U.m4a?guid=1688505292&vkey=F1DA36393814909C8FD974004274C39A2F52601665C97520CF50C44F58AE7A6EDB724F11F7A2FD47DF04C9F8C1455337E4587FC8917B73B0&uin=7181&fromtag=66'
   },
 
   /**

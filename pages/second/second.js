@@ -1,53 +1,32 @@
-// pages/undergo/undergo.js
+// pages/second/second.js
+import json,{
+	rdm,
+} from '../../utils/common'
+console.log(rdm(0, 10), '+++',json.a,'ccc');
 Page({
 
 	/**
 	 * 页面的初始数据
 	 */
 	data: {
-		autoplay: false, //是否自动播放
-		duration: 500, //延迟
-		indicatorDots: true, //小点
-		interval: 3000, //间隔时间
-		duration: 3000, //滑动时间
-		color: 'red',
-		arr: [
-			'/images/1.png',
-			'/images/2.png',
-			'/images/3.png',
-			'/images/4.png'
-		]
+		go: '../../images/go.png',
+		r: parseInt(Math.random() * 256),
+		g: parseInt(Math.random() * 256),
+		b: parseInt(Math.random() * 256)
 	},
 
 	/**
 	 * 生命周期函数--监听页面加载
 	 */
-	//轮播图点击
-	tabGo(ev) {
-		let index = ev.currentTarget.dataset.index
-		switch (index) {
-			case 0:
-				wx.navigateTo({
-					url: `/pages/first/first`
-				})
-				break;
-			case 1:
-				wx.navigateTo({
-					url: `/pages/second/second`
-				})
-				break;
-			case 2:
-				console.log('第三')
-				break;
-			default:
-				break
-		}
-		console.log(ev.currentTarget.dataset.index);
+	onLoad() {
+		
 	},
-	onLoad: function(options) {
-
+	//返回按钮
+	goback() {
+		wx.switchTab({
+			url: '/pages/undergo/undergo',
+		})
 	},
-
 	/**
 	 * 生命周期函数--监听页面初次渲染完成
 	 */

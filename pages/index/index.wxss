@@ -1,6 +1,212 @@
-.headerbox,.content {
+
+.context{
+	min-height:876rpx;
+	height: 876rpx;
+	display:flex;
+}
+.context .left{
+	width: 200rpx;
+	height: 100%;
+	font-size:30rpx;
+	color:#c1c1c1;
+	background:#f7f7f7;
+	text-align:center;
+}
+.context .item{
+	width:100%;
+	height: 100rpx;
+	position:relative;
+	line-height:100rpx;
+}
+.right{
+	padding:25rpx 23rpx;
+	
+}
+.rightitem{
+	width:556rpx;
+	border-radius:10rpx;
+}
+.titlebox{
+	display:flex;
+	font-size:26rpx;
+	justify-content:space-between;
+	color:red;
+	}
+	.titleweb{
+		font-size:26rpx;
+		color: rgb(64, 158, 255);
+	}
+.right_box{
+	border-radius:10rpx;
+}
+.jimg{
+	display:flex;
+	padding:30rpx 200rpx;
+}
+.item1{
+	width:8rpx;
+	height: 100rpx;
+	position:absolute;
+	left: 0;
+	box-sizing: border-box;
+	z-index:10;
+	white-space:nowrap;
+	overflow: hidden;
+	top: 0;
+	color:transparent;
+}
+.boxty0{
+	text-align:center;
+background: #006e61;
+}
+.active{
+	width:100%;
+	transition:all .3s;
+	color:#fff;
+	overflow:hidden;
+}
+.boxty1{
+background:  #fda10a;
+}
+.boxty2{
+	background:#02396a;
+}
+.boxty3{
+	background:#fe403d;
+}
+.imgy{
+	width:150rpx;
+	height:150rpx;
+}
+.imgy .imgs{
+	width: 100%;
+	height: 100%;
+}
+.textr{
+	display:flex;
+	padding:0 30rpx;
+}
+.textr .texttitle{
+	
+	margin-bottom:20rpx;
+}
+.texttitle .text1{
+	font-size:28rpx;
+	color:#040407;
+}
+.texttitle .text2{
+	color:#0e0e10;
+	font-size:26rpx;
+	line-height:40rpx;
+	color:#fff;
+}
+.textlast{
+	min-height:200rpx;
+}
+.textlast .tf{
+	font-size:30rpx;
+	color:#000;
+	width:100%;
+	padding-left:30rpx;
+}
+.boxtext{
+	padding:0 30rpx;
+	line-height:50rpx;
+	font-size:28rpx;
+	color:#000;
+}
+.bottom{
+	text-align:center;
+	height: 50rpx;
+	font-size:27rpx;
+	line-height:50rpx;
+	color:#818181;
+	background:#f7f7f7;
+}
+.fenxiang{
+	position:fixed;
+	width: 150rpx;
+	height: 60rpx;
+	top:90%;
+	right:2%;
+	line-height:60rpx;
+	font-size:24rpx;
+	border:1px #f7f7f7 solid;
+	color:#383838;
+	box-shadow: 0 0 10rpx rgba(0, 0, 0, 0.1);
+	border-radius:30rpx ;
+}
+.fenxiang .fenimg{
+	width:40rpx;
+	height:40rpx;
+	position:relative;
+	margin:10rpx 10rpx 20rpx 30rpx;
+}
+.fenimg .tyimg{
+	width: 100%;
+	height: 100%;
+	position:absolute;
+	top: 0;
+	    left: 0;
+		vertical-align:middle;
+}
+.liuyan{
+	position:absolute;
+	width: 150rpx;
+	height: 60rpx;
+	line-height:60rpx;
+	top:955rpx;
+	right:10rpx;
+	font-size:24rpx;
+	color:#393738;
+	border:1px #f7f7f7 solid;
+	border-radius:30rpx ;
+	background:#fff;
+}
+.liuyan .liuimg{
+	width:30rpx;
+	height:30rpx;
+	margin:10rpx 10rpx 20rpx 30rpx;
+}
+.telcolor{
+	color:#fc5531;
+	font-size:28rpx;
+}
+.liuimg .liuy{
+	width:100%;
+	height:100%;
+}
+.boxitem{
+	padding-top:20rpx;
+	transition:all 2s;
+}
+.animate {
+	  animation: name 2s ease;
+	}
+	@keyframes name {
+	  from {
+	    transform: translateY(200rpx);
+		opacity:0.5;
+	  }
+	
+	  to {
+	    transform: scale(1);
+		opacity:1;
+	  }
+	}
+.box_text{
+	margin-bottom:10rpx;
+}
+.textitem{
+	line-height:90rpx;
+	height:90rpx;
+	box-sizing: border-box;
+	padding-left:35rpx;
+}
+.headerbox {
 	padding: 20rpx 30rpx;
 	margin: 20rpx;
+	
 	border-radius: 5rpx;
 	box-shadow: 0 0 10rpx rgba(0, 0, 0, 0.1);
 }
@@ -28,6 +234,9 @@
 .text-orange{
 	color:orange;
 }
+.flex{
+	display:flex;
+}
 .phone{
 	display:flex;
 	margin-top:10rpx;
@@ -37,16 +246,23 @@
 .joib{
 	margin-right:20rpx;
 }
+.time{
+	display:flex;
+	margin-top:10rpx;
+	justify-content:center;
+}
 .linebox{
 	position:relative;
 	text-align:center;
+	color:#fff;
+	padding:10rpx 0;
 }
 .linebox::after{
 	content:'';
 	position:absolute;
 	width:25%;
 	left: 12%;
-	top: 55%;
+	top: 50%;
 	height: 1px;
 	background-color:#ccc;
 }
@@ -55,24 +271,18 @@
 	position:absolute;
 	width:25%;
 	right: 12%;
-	top: 55%;
-
-
+	top: 50%;
 	height: 1px;
 	background-color:#ccc;
 }
-.c_text{
-	margin-top:15rpx;
-}
-.text{
-	margin-bottom:15rpx;
-}
-.time{
+.img_box{
+	padding-top:10rpx;
 	display:flex;
-	margin-top:10rpx;
 	justify-content:center;
+	align-items:center;
 }
-.just_flex{
-	display:flex;
-	justify-content:space-between;
+.item_img{
+	width: 100rpx !important;
+	height:100rpx;
+	display:block;
 }

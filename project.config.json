@@ -64,6 +64,18 @@
         {
           "name": "pages/welcome/welcome",
           "pathName": "pages/welcome/welcome",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/index/index",
+          "pathName": "pages/index/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/second/second",
+          "pathName": "pages/second/second",
           "scene": null
         }
       ]

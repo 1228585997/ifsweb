@@ -7,7 +7,7 @@
 			<block wx:for="{{arr}}" wx:key="*this" wx:for-index="i">
 				<swiper-item bindtap="tabGo" data-index="{{i}}">
 					<view class="swiper-item">
-						<image src="{{item}}"></image>
+						<image src="{{item}}"  mode="scaleToFill" style="width:100%;"></image>
 					</view>
 				</swiper-item>
 			</block>
@@ -39,6 +39,7 @@
 				项目描述:这是一款汽车融资的信贷抵押的后台管理系统基于Vue_element_admin模板开发的后台管理系统。
 			</view>
 			<view class="text">
+				责任描述：
 				<view class="text">1.使用ElementUI的表格组件及栅格系统快速实现页面整体布局,组件的封装及Axios的封装。</view>
 				<view class="text">2.负责产品的功能模块设计、内容开发、产品的详情页及互动展示，使用路由懒加载,提高用户体验。</view>
 				<view class="text">3.负责页面跳转,组件传值，权限管理分配权限功能的实现，对项目进度负责，使用 Iconfont 矢量图标便于修改和维护。</view>
@@ -47,10 +48,12 @@
 		<view class="linebox">
 			项目三 (2018/10-2019/3)
 			<view class="box_text">
+				项目名称:小小天气君
 				<view class="text">
 					项目描述:这是一个查询天气的小程序。根据地区不同查询当地天气。主要包括数据的请求,页面的搭建效果的实现。
 				</view>
 				<view class="text">
+					责任描述：
 					<view class="text">1.实现页面美观，布局优化，列表数据的查询以及用户数据的搜索后端数据的交互。</view>
 					<view class="text">2.按照效果图实现以上的各组件 UI 界面，将数据进行请求渲染到各组件的界面上,项目性能优化,以及各个版本之间的浏览器兼容。</view>
 					<view class="text">3.天气的搜索功能，地址定位实现产品经理、设计师的网站或平台的业务需求，还原产品所 需设计。</view>
@@ -66,6 +69,7 @@
 				项目描述:必然商城是全品类精品内容电商 APP，通过有趣的内容社交化，满足人们的购物习惯爱好。
 			</view>
 			<view class="text">
+				责任描述：
 				<view class="text_box">
 					1.资源搜索时使用搜索资源，可查找到大部分资源，点击下载时下载到本地。
 				</view>
@@ -101,6 +105,7 @@
 				</view>
 			</view>
 			<view class="box">
+				责任描述：
 				<view>1.利用 Element-UI布局，模块化开发便于维护及增加需求使用，表格栅格系统的应用。</view>
 				<view>2.组件化开发，项目整体布局及界面维护，vuex状态管理的使用，Echarts数据可视化的大量使用。</view>
 				<view>3.活动页中利用Vant进行的上滑操作，动画的使用，及移动端适配，音频播放等。</view>

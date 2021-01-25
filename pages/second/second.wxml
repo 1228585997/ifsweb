@@ -1,0 +1,8 @@
+<!--pages/second/second.wxml-->
+<view class="second_box">
+	<!-- 返回按钮 -->
+	<view class="goback" bindtap="goback">
+		<image src="{{go}}" class="go_img" mode="widthFix"></image>
+	</view>
+	<view class="lovebox"></view>
+</view>

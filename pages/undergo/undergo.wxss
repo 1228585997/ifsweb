@@ -1,6 +1,5 @@
 /* pages/undergo/undergo.wxss */
 .main_header{
-	padding:30rpx;
 	background-color: rgb(64, 158, 255);
 }
 .linebox{
