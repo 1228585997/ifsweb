@@ -27,14 +27,12 @@
 	border-radius:10rpx;
 }
 .titlebox{
-	display:flex;
-	font-size:26rpx;
-	justify-content:space-between;
+	font-size:14px;
 	color:red;
 	}
 	.titleweb{
-		font-size:26rpx;
-		color: rgb(64, 158, 255);
+		font-size:14px;
+		color:#FFF97B;
 	}
 .right_box{
 	border-radius:10rpx;
@@ -95,9 +93,8 @@ background:  #fda10a;
 	color:#040407;
 }
 .texttitle .text2{
-	color:#0e0e10;
-	font-size:26rpx;
-	line-height:40rpx;
+	margin:0 0 10rpx;
+	font-size:14px;
 	color:#fff;
 }
 .textlast{
@@ -223,16 +220,18 @@ background:  #fda10a;
 
 .title {
 	margin-top:10rpx;
+	color:#fff;
 	font-weight:normal;
 	text-align: center;
 }
 .margin-top-sm{
 	width: 100%;
+	color:#fff;
 	margin-top:10rpx;
 	text-align:center;
 }
 .text-orange{
-	color:orange;
+	color:#FFF97B;
 }
 .flex{
 	display:flex;
@@ -240,14 +239,18 @@ background:  #fda10a;
 .phone{
 	display:flex;
 	margin-top:10rpx;
+	
+	color:#fff;
 	justify-content:center;
 	white-space:normal;
 }
 .joib{
 	margin-right:20rpx;
+	color:#fff;
 }
 .time{
 	display:flex;
+	color:#fff;
 	margin-top:10rpx;
 	justify-content:center;
 }
