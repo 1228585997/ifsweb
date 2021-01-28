@@ -92,13 +92,19 @@
 		</view>
 		
 		</scroll-view>
-		
 		<!-- 拨打电话 -->
 		<view class="fenxiang" bindtap="tel">
 			<view class="fenimg fl">
 				<image  class="tyimg" src="../../images/phone.png" mode="widthFix"></image>
 			</view>
 			<view class="fl telcolor">电话</view>
+		</view>
+		<!-- 分享 -->
+		<view class="sharebox" bindtap="share">
+			<view class="fenimg fl">
+				<image  class="tyimg1" src="../../images/shareimg.png" mode="widthFix"></image>
+			</view>
+			<view class="fl telcolor">分享</view>
 		</view>
 	</view>
 </view>

@@ -7,7 +7,7 @@ Page({
 	  play1:'../../images/play1.png',
 	  play2:'../../images/play2.png',
 	  type:true, //类型图片展示
-	  playsrc:'http://xiaoyi-bbs.oss-cn-qingdao.aliyuncs.com/h5/audio/activity6year.mp3',
+	  playsrc:'https://ws.stream.qqmusic.qq.com/C400002br9DI3QWtAI.m4a?guid=1688505292&vkey=4D3CEB0A38FE7BBD947B47C48182C35ABAC8A524BE054C1ACD787A435329A44752579B9C0322BBA6FF06C732EC64A6B7C95C62C55C57FA41&uin=1228585997&fromtag=66',
    arr:[ 
 	  {
 		  name:'自我评价',
@@ -52,7 +52,7 @@ Page({
 			   itemimg:'../../images/item4.png',
 			    text1:'1.业余时间会自主钻研前端技术丰富自己的前端技能栈。',
 				text2:'2.码代码,喜欢网页特效,与大佬交流技术心得,技术实现方案。',
-				text3:'3.说就就走的旅行,旅行可以让我们开拓眼界,一辈子是场修行，短的是旅行，长的是人生。'
+				text3:'3.说走就走的旅行,旅行可以让我们开拓眼界,一辈子是场修行，短的是旅行，长的是人生。'
 	  }
    ],//存放数据
    z_index:0,
@@ -78,8 +78,11 @@ Page({
   //请求接口
 onLoad(){
 	this.audioCtx = wx.createAudioContext('myAudio')
+	this.audioCtx.seek(48)
 	this.audioCtx.play()
  },
+ onReady(){
+	 },
  //音频播放
  	cg(){ 
  		let audioCtx = wx.createAudioContext('myAudio')
@@ -102,6 +105,12 @@ onLoad(){
 	 console.log(phoneNumber);
 	 wx.makePhoneCall({
 	   phoneNumber //仅为示例，并非真实的电话号码
+	 })
+ },
+ //分享
+ share(){
+	 wx.showShareImageMenu({
+		 path:`/images/share.jpg`
 	 })
  },
  onReady(){

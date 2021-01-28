@@ -3,7 +3,7 @@
     "pages/welcome/welcome",
     "pages/index/index",
     "pages/undergo/undergo",
-    "pages/first/first"
+	"pages/first/first"
   ],
   "window": {
     "backgroundTextStyle": "light",

@@ -7,15 +7,12 @@ Page({
    * 页面的初始数据
    */
   data: {
-	  
-	 
-	  
 	go:'../../images/go.png',
 	play1:'../../images/play1.png',
 	play2:'../../images/play2.png',
 	type:true, //类型图片展示
 	//音频路径
-	playsrc:'https://isure.stream.qqmusic.qq.com/C400001xLIXo2w9V7U.m4a?guid=1688505292&vkey=F1DA36393814909C8FD974004274C39A2F52601665C97520CF50C44F58AE7A6EDB724F11F7A2FD47DF04C9F8C1455337E4587FC8917B73B0&uin=7181&fromtag=66'
+	playsrc:'https://ws.stream.qqmusic.qq.com/C400002br9DI3QWtAI.m4a?guid=1688505292&vkey=34768DFF781FB4CD94829DDD7F5AED119246697CF7855DD300D29C2CEF8A1E6D01C76B5956AF1AF739BACCE4D82B55FD9AABCD53B760A6E4&uin=1228585997&fromtag=66'
   },
 
   /**
