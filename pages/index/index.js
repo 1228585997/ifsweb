@@ -7,7 +7,7 @@ Page({
 	  play1:'../../images/play1.png',
 	  play2:'../../images/play2.png',
 	  type:true, //类型图片展示
-	  playsrc:'https://ws.stream.qqmusic.qq.com/C400002br9DI3QWtAI.m4a?guid=1688505292&vkey=4D3CEB0A38FE7BBD947B47C48182C35ABAC8A524BE054C1ACD787A435329A44752579B9C0322BBA6FF06C732EC64A6B7C95C62C55C57FA41&uin=1228585997&fromtag=66',
+	  playsrc:'https://lfn.oss-cn-shanghai.aliyuncs.com/yk.mp3',
    arr:[ 
 	  {
 		  name:'自我评价',
@@ -19,7 +19,7 @@ Page({
 	  },
 	  {
 		  name:'工作经验',
-		  title:'2017.11-2020.2	 北京佳金数据科技',
+		  title:'2017.11-2020.1	上海小蚁科技有限公司',
 		  titleweb:'Web 前端开发工程师',
 		  text1:'1.负责 WEB 端及移动端的前端开发工作，完负责与后台合作共同完成项目对接，参与公司外包项目。',
 		  text2:'2.配合产品经理及 UI 设计师，研究并改善用户体验。',
@@ -27,7 +27,7 @@ Page({
 		  text4:'4.项目通过 Vue 脚手架 快速搭建开发环境，及VueX 处理各组件间的通讯，Axios 处理请求， ',
 		  text5:'5.负责 PC 端及移动端的开发、数据交互和性能优化相关工作，使用 HTML5 新特性，利用 SEO 对代码质量及进度负责。',
 		  itemimg:'../../images/item2.png',
-		  title2:'2020.3-2021.1	上海小蚁科技',
+		  title2:'2020.2-2021.7	上海润和软件有限公司',
 		  titleweb2:' Web 前端开发工程师',
 		  text1_1:'1.负责大屏可视化开发，WEB项目的前端工作，解决bug。',
 		  text2_2:'2. 负责公司内部的小蚁云开放平台,6周年活动页H5页面嵌套APP小程序等项目的开发工作。',
@@ -77,9 +77,12 @@ Page({
   },
   //请求接口
 onLoad(){
-	this.audioCtx = wx.createAudioContext('myAudio')
-	this.audioCtx.seek(48)
-	this.audioCtx.play()
+	
+		this.audioCtx = wx.createAudioContext('myAudio')
+		this.audioCtx.seek(30)
+		this.audioCtx.play()
+	
+
  },
  onReady(){
 	 },
