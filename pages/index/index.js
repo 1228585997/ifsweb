@@ -7,7 +7,7 @@ Page({
 	  play1:'../../images/play1.png',
 	  play2:'../../images/play2.png',
 	  type:true, //类型图片展示
-	  playsrc:'https://lfn.oss-cn-shanghai.aliyuncs.com/yk.mp3',
+	  playsrc:'https://lifn.oss-cn-shanghai.aliyuncs.com/C400002br9DI3QWtAI%20%281%29.m4a',
    arr:[ 
 	  {
 		  name:'自我评价',
@@ -77,12 +77,13 @@ Page({
   },
   //请求接口
 onLoad(){
-	
-		this.audioCtx = wx.createAudioContext('myAudio')
-		this.audioCtx.seek(30)
-		this.audioCtx.play()
-	
-
+	this.playMusic()
+ },
+ //播放音频
+ playMusic(){
+	 this.audioCtx = wx.createAudioContext('myAudio')
+	 this.audioCtx.seek(30)
+	 this.audioCtx.play()
  },
  onReady(){
 	 },
